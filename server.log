@@ -1,0 +1,123 @@
+2026-09-08T17:05:45 INFO Server listening on 0.0.0.0:5067
+2026-09-08T17:06:38 INFO Server listening on 0.0.0.0:5067
+2026-09-08T17:07:01 INFO Server listening on 0.0.0.0:5067
+2026-09-08T17:08:00 INFO Client connected from 127.0.0.1:41042
+2026-09-08T17:08:00 INFO Request client=127.0.0.1:41042 user=none request_id=r1 command=HELLO
+2026-09-08T17:08:00 INFO HELLO success client=127.0.0.1:41042 user=integration_tester
+2026-09-08T17:08:00 INFO Request client=127.0.0.1:41042 user=integration_tester request_id=r2 command=LIST
+2026-09-08T17:08:00 INFO LIST success user=integration_tester items=5
+2026-09-08T17:08:00 INFO Request client=127.0.0.1:41042 user=integration_tester request_id=r3 command=CHECKOUT
+2026-09-08T17:08:00 INFO CHECKOUT success user=integration_tester equipment_id=101
+2026-09-08T17:08:00 INFO Request client=127.0.0.1:41042 user=integration_tester request_id=r4 command=MY_ITEMS
+2026-09-08T17:08:00 INFO MY_ITEMS success user=integration_tester items=1
+2026-09-08T17:08:00 INFO Request client=127.0.0.1:41042 user=integration_tester request_id=r5 command=RETURN
+2026-09-08T17:08:00 INFO RETURN success user=integration_tester equipment_id=101
+2026-09-08T17:08:00 INFO Request client=127.0.0.1:41042 user=integration_tester request_id=r6 command=QUIT
+2026-09-08T17:08:00 INFO Client disconnected gracefully client=127.0.0.1:41042 user=integration_tester
+2026-09-08T17:08:00 INFO Server shutdown complete
+2026-09-08T17:08:01 INFO Server listening on 0.0.0.0:5067
+2026-09-09T20:37:30 INFO Server listening on 0.0.0.0:5050
+2026-09-09T20:38:35 INFO Server listening on 0.0.0.0:5050
+2026-09-09T20:39:10 INFO Client connected from 127.0.0.1:52948
+2026-09-09T20:39:15 INFO Request client=127.0.0.1:52948 user=none request_id=r1 command=HELLO
+2026-09-09T20:39:15 INFO HELLO success client=127.0.0.1:52948 user=python client.py localhost 5050
+2026-09-09T20:39:38 INFO Request client=127.0.0.1:52948 user=python client.py localhost 5050 request_id=r2 command=LIST
+2026-09-09T20:39:38 INFO LIST success user=python client.py localhost 5050 items=5
+2026-09-09T20:40:56 INFO Request client=127.0.0.1:52948 user=python client.py localhost 5050 request_id=r3 command=LIST
+2026-09-09T20:40:56 INFO LIST success user=python client.py localhost 5050 items=5
+2026-09-09T20:44:23 INFO Request client=127.0.0.1:52948 user=python client.py localhost 5050 request_id=r4 command=LIST
+2026-09-09T20:44:23 INFO LIST success user=python client.py localhost 5050 items=5
+2026-09-09T20:44:52 INFO Request client=127.0.0.1:52948 user=python client.py localhost 5050 request_id=r5 command=CHECKOUT
+2026-09-09T20:44:52 INFO CHECKOUT success user=python client.py localhost 5050 equipment_id=101
+2026-09-09T20:45:09 INFO Request client=127.0.0.1:52948 user=python client.py localhost 5050 request_id=r6 command=MY_ITEMS
+2026-09-09T20:45:09 INFO MY_ITEMS success user=python client.py localhost 5050 items=1
+2026-09-09T20:45:43 INFO Request client=127.0.0.1:52948 user=python client.py localhost 5050 request_id=r7 command=RETURN
+2026-09-09T20:45:43 INFO RETURN success user=python client.py localhost 5050 equipment_id=101
+2026-09-09T20:51:47 INFO Server listening on 0.0.0.0:5050
+2026-09-09T20:51:50 INFO Client connected from 127.0.0.1:51790
+2026-09-09T20:52:03 INFO Request client=127.0.0.1:51790 user=none request_id=r1 command=HELLO
+2026-09-09T20:52:03 INFO HELLO success client=127.0.0.1:51790 user=Abdulrazzaq
+2026-09-09T20:52:12 INFO Request client=127.0.0.1:51790 user=Abdulrazzaq request_id=r2 command=LIST
+2026-09-09T20:52:12 INFO LIST success user=Abdulrazzaq items=5
+2026-09-09T20:52:16 INFO Request client=127.0.0.1:51790 user=Abdulrazzaq request_id=r3 command=LIST
+2026-09-09T20:52:16 INFO LIST success user=Abdulrazzaq items=5
+2026-09-09T20:52:26 INFO Request client=127.0.0.1:51790 user=Abdulrazzaq request_id=r4 command=CHECKOUT
+2026-09-09T20:52:26 INFO CHECKOUT success user=Abdulrazzaq equipment_id=104
+2026-09-09T20:53:02 WARNING Connection reset client=127.0.0.1:51790 user=Abdulrazzaq
+2026-09-09T20:53:02 INFO Server shutdown complete
+2026-09-10T12:05:50 INFO Server listening on 0.0.0.0:5050
+2026-09-10T12:05:53 INFO Client connected from 127.0.0.1:54200
+2026-09-10T12:06:01 INFO Request client=127.0.0.1:54200 user=none request_id=r1 command=HELLO
+2026-09-10T12:06:01 INFO HELLO success client=127.0.0.1:54200 user=Abdu
+2026-09-10T12:06:09 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r2 command=LIST
+2026-09-10T12:06:09 INFO LIST success user=Abdu items=5
+2026-09-10T12:06:41 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r3 command=CHECKOUT
+2026-09-10T12:06:41 INFO CHECKOUT success user=Abdu equipment_id=104
+2026-09-10T12:07:09 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r4 command=CHECKOUT
+2026-09-10T12:07:09 INFO CHECKOUT success user=Abdu equipment_id=103
+2026-09-10T12:07:30 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r5 command=RETURN
+2026-09-10T12:07:30 WARNING RETURN failed user=Abdu equipment_id=102 error=NOT_CHECKED_OUT_BY_USER
+2026-09-10T12:07:55 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r6 command=RETURN
+2026-09-10T12:07:55 INFO RETURN success user=Abdu equipment_id=104
+2026-09-10T12:08:10 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r7 command=MY_ITEMS
+2026-09-10T12:08:10 INFO MY_ITEMS success user=Abdu items=1
+2026-09-10T12:08:57 INFO Request client=127.0.0.1:54200 user=Abdu request_id=r8 command=QUIT
+2026-09-10T12:08:57 INFO Client disconnected gracefully client=127.0.0.1:54200 user=Abdu
+2026-09-10T12:08:57 INFO Server shutdown complete
+2026-09-10T13:47:44 INFO Server listening on 0.0.0.0:5050
+2026-09-10T13:47:50 INFO Client connected from 127.0.0.1:53521
+2026-09-10T13:48:08 INFO Request client=127.0.0.1:53521 user=none request_id=r1 command=HELLO
+2026-09-10T13:48:08 INFO HELLO success client=127.0.0.1:53521 user=abdu
+2026-09-10T13:48:28 INFO Request client=127.0.0.1:53521 user=abdu request_id=r2 command=LIST
+2026-09-10T13:48:28 INFO LIST success user=abdu items=5
+2026-09-10T13:49:01 INFO Request client=127.0.0.1:53521 user=abdu request_id=r3 command=CHECKOUT
+2026-09-10T13:49:01 INFO CHECKOUT success user=abdu equipment_id=103
+2026-09-10T13:49:53 INFO Request client=127.0.0.1:53521 user=abdu request_id=r4 command=RETURN
+2026-09-10T13:49:53 WARNING RETURN failed user=abdu equipment_id=102 error=NOT_CHECKED_OUT_BY_USER
+2026-09-10T13:50:17 WARNING Connection reset client=127.0.0.1:53521 user=abdu
+2026-09-10T13:50:17 INFO Server shutdown complete
+2026-09-10T13:50:24 INFO Server listening on 0.0.0.0:5050
+2026-09-10T13:50:27 INFO Client connected from 127.0.0.1:57067
+2026-09-10T13:50:33 INFO Request client=127.0.0.1:57067 user=none request_id=r1 command=HELLO
+2026-09-10T13:50:33 INFO HELLO success client=127.0.0.1:57067 user=ahmed
+2026-09-10T13:50:57 WARNING Connection reset client=127.0.0.1:57067 user=ahmed
+2026-09-10T13:50:57 INFO Server shutdown complete
+2026-09-10T13:50:59 INFO Server listening on 0.0.0.0:5050
+2026-09-10T13:51:01 INFO Client connected from 127.0.0.1:56818
+2026-09-10T13:51:10 INFO Request client=127.0.0.1:56818 user=none request_id=r1 command=HELLO
+2026-09-10T13:51:10 INFO HELLO success client=127.0.0.1:56818 user=abdu
+2026-09-10T13:51:14 INFO Request client=127.0.0.1:56818 user=abdu request_id=r2 command=LIST
+2026-09-10T13:51:14 INFO LIST success user=abdu items=5
+2026-09-10T13:51:43 INFO Request client=127.0.0.1:56818 user=abdu request_id=r3 command=CHECKOUT
+2026-09-10T13:51:43 INFO CHECKOUT success user=abdu equipment_id=105
+2026-09-10T13:52:23 INFO Request client=127.0.0.1:56818 user=abdu request_id=r4 command=CHECKOUT
+2026-09-10T13:52:23 WARNING CHECKOUT failed user=abdu equipment_id=105 error=ITEM_UNAVAILABLE
+2026-09-10T13:52:48 INFO Request client=127.0.0.1:56818 user=abdu request_id=r5 command=RETURN
+2026-09-10T13:52:48 WARNING RETURN failed user=abdu equipment_id=101 error=NOT_CHECKED_OUT_BY_USER
+2026-09-10T13:53:05 INFO Request client=127.0.0.1:56818 user=abdu request_id=r6 command=MY_ITEMS
+2026-09-10T13:53:05 INFO MY_ITEMS success user=abdu items=1
+2026-09-10T13:53:15 INFO Request client=127.0.0.1:56818 user=abdu request_id=r7 command=MY_ITEMS
+2026-09-10T13:53:15 INFO MY_ITEMS success user=abdu items=1
+2026-09-10T13:53:23 INFO Request client=127.0.0.1:56818 user=abdu request_id=r8 command=LIST
+2026-09-10T13:53:23 INFO LIST success user=abdu items=4
+2026-09-10T13:53:40 INFO Request client=127.0.0.1:56818 user=abdu request_id=r9 command=CHECKOUT
+2026-09-10T13:53:40 INFO CHECKOUT success user=abdu equipment_id=103
+2026-09-10T13:53:56 INFO Request client=127.0.0.1:56818 user=abdu request_id=r10 command=RETURN
+2026-09-10T13:53:56 WARNING RETURN failed user=abdu equipment_id=102 error=NOT_CHECKED_OUT_BY_USER
+2026-09-10T13:54:17 INFO Request client=127.0.0.1:56818 user=abdu request_id=r11 command=CHECKOUT
+2026-09-10T13:54:17 INFO CHECKOUT success user=abdu equipment_id=101
+2026-09-10T13:54:22 INFO Request client=127.0.0.1:56818 user=abdu request_id=r12 command=LIST
+2026-09-10T13:54:22 INFO LIST success user=abdu items=2
+2026-09-10T13:54:37 INFO Request client=127.0.0.1:56818 user=abdu request_id=r13 command=MY_ITEMS
+2026-09-10T13:54:37 INFO MY_ITEMS success user=abdu items=3
+2026-09-10T13:54:57 INFO Request client=127.0.0.1:56818 user=abdu request_id=r14 command=RETURN
+2026-09-10T13:54:57 INFO RETURN success user=abdu equipment_id=103
+2026-09-10T13:55:11 INFO Request client=127.0.0.1:56818 user=abdu request_id=r15 command=MY_ITEMS
+2026-09-10T13:55:11 INFO MY_ITEMS success user=abdu items=2
+2026-09-10T13:57:02 INFO Server listening on 0.0.0.0:5050
+2026-09-10T13:57:54 INFO Server listening on 0.0.0.0:5050
+2026-09-10T13:57:58 INFO Client connected from 127.0.0.1:56394
+2026-09-10T13:58:21 INFO Request client=127.0.0.1:56394 user=none request_id=r1 command=HELLO
+2026-09-10T13:58:21 INFO HELLO success client=127.0.0.1:56394 user=mo
+2026-09-10T13:59:50 WARNING Connection reset client=127.0.0.1:56394 user=mo
+2026-09-10T13:59:50 INFO Server shutdown complete

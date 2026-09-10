@@ -1,0 +1,8 @@
+================================================
+        CampusGear Checkout Server
+================================================
+Server listening on port 5067
+Waiting for a client...
+Client connected from 127.0.0.1:41042
+Client ended session: integration_tester
+Server stopped.
